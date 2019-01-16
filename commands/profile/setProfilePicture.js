@@ -6,7 +6,7 @@
 
 exports.exec = async (Bastion, message, args) => {
   if (Bastion.methods.isPublicBastion(Bastion)) {
-    return Bastion.emit('error', '', 'This command is temporarily disabled in the public Bastion. For details, please contact [Bastion Support](https://discord.gg/fzx8fkt).', message.channel);
+    return Bastion.emit('error', '', 'This command is temporarily disabled.', message.channel);
   }
 
   args = args.join(' ');
@@ -56,7 +56,7 @@ exports.config = {
 
 exports.help = {
   name: 'setProfilePicture',
-  description: 'Sets your profile picture that shows up in the Bastion user profile.',
+  description: 'Sets your profile picture that shows up in the STEMBot user profile.',
   botPermission: '',
   userTextPermission: '',
   userVoicePermission: '',
