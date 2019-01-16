@@ -53,7 +53,7 @@ exports.exec = async (Bastion, message, args) => {
   let result;
   if (outcome.toLowerCase() === args.outcome.toLowerCase()) {
     let prize = args.money < 50 ? args.money + outcomes.length : args.money < 100 ? args.money : args.money * 2;
-    result = `Congratulations! You won the bet.\nYou won **${prize}** Bastion Currencies.`;
+    result = `Congratulations! You won the bet.\nYou won **${prize}** STEM Bucks.`;
 
     Bastion.emit('userDebit', message.member, prize);
   }
