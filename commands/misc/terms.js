@@ -8,9 +8,9 @@ exports.exec = async (Bastion, message) => {
   await message.channel.send({
     embed: {
       color: Bastion.colors.BLUE,
-      title: 'Bastion Bot - Terms of Service',
-      url: 'https://bastionbot.org/',
-      description: '\nBastion has access to the End User Data through the Discord API, but Bastion does not collect, use and/or disclose End User Data except (a) as necessary to exercise your rights under this Agreement, (b) in accordance with Discord’s Privacy Policy.' +
+      title: 'STEMBot - Terms of Service',
+      url: 'https://featuredspace.com/',
+      description: '\nSTEMBot has access to the End User Data through the Discord API, but STEMBot does not collect, use and/or disclose End User Data except (a) as necessary to exercise your rights under this Agreement, (b) in accordance with Discord’s Privacy Policy.' +
         '\n\nWe will never sell, license or otherwise commercialize any End User Data. Neither will we ever use End User Data to target End Users for marketing or advertising purposes. We will never even disclose any End User Data to any ad network, data broker or other advertising or monetization related service.' +
         '\n\nEnd User Data will be retained only as necessary to provide the defined functionality of the Application and nothing more.' +
         '\n\nWe ensure that all End User Data is stored using reasonable security measures and we take reasonable steps to secure End User Data.' +
