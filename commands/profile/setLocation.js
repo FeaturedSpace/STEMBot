@@ -64,7 +64,7 @@ exports.config = {
 
 exports.help = {
   name: 'setLocation',
-  description: 'Sets your location that shows up in the Bastion user profile.',
+  description: 'Sets your location that shows up in the STEMBot user profile.',
   botPermission: '',
   userTextPermission: '',
   userVoicePermission: '',
