@@ -31,7 +31,7 @@ exports.exec = async (Bastion, message, args) => {
     await message.channel.send({
       embed: {
         color: Bastion.colors.RED,
-        description: `${args[0]} Bastion Currencies has been taken from <@${user.id}>`,
+        description: `${args[0]} STEM Bucks has been taken from <@${user.id}>`,
         fields: [
           {
             name: 'Reason',
@@ -47,7 +47,7 @@ exports.exec = async (Bastion, message, args) => {
     await user.send({
       embed: {
         color: Bastion.colors.RED,
-        description: `Your account has been credited with **${args[0]}** Bastion Currencies.`,
+        description: `Your account has been credited with **${args[0]}** STEM Bucks.`,
         fields: [
           {
             name: 'Reason',
