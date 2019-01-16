@@ -125,12 +125,12 @@ exports.config = {
 
 exports.help = {
   name: 'profile',
-  description: 'Shows Bastion user profile of a specified user of your Discord server.',
+  description: 'Shows STEMBot user profile of a specified user of the Discord server.',
   botPermission: '',
   userTextPermission: '',
   userVoicePermission: '',
   usage: 'profile [@USER_MENTION | USER_ID]',
-  example: [ 'profle', 'profile @Bastion#0001', 'profile 167433345337713651' ]
+  example: [ 'profile', 'profile @Bastion#0001', 'profile 167433345337713651' ]
 };
 
 /**
