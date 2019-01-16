@@ -31,7 +31,7 @@ exports.exec = async (Bastion, message, args) => {
     await message.channel.send({
       embed: {
         color: Bastion.colors.GREEN,
-        description: `You've awarded **${args.amount}** Bastion Currencies to <@${user.id}>.`
+        description: `You've awarded **${args.amount}** Bastion STEM Bucks to <@${user.id}>.`
       }
     }).catch(e => {
       Bastion.log.error(e);
@@ -41,7 +41,7 @@ exports.exec = async (Bastion, message, args) => {
     await user.send({
       embed: {
         color: Bastion.colors.GREEN,
-        description: `Your account, in **${message.guild.name}** Server, has been debited with **${args.amount}** Bastion Currencies.`
+        description: `Your account, in **${message.guild.name}** Server, has been debited with **${args.amount}** STEM Bucks.`
       }
     }).catch(e => {
       Bastion.log.error(e);
@@ -92,7 +92,7 @@ exports.exec = async (Bastion, message, args) => {
     await message.channel.send({
       embed: {
         color: Bastion.colors.GREEN,
-        description: `You have given **${args.amount}** Bastion Currencies to <@${user.id}>.`
+        description: `You have given **${args.amount}** STEM Bucks to <@${user.id}>.`
       }
     }).catch(e => {
       Bastion.log.error(e);
@@ -102,7 +102,7 @@ exports.exec = async (Bastion, message, args) => {
     await user.send({
       embed: {
         color: Bastion.colors.GREEN,
-        description: `Your account, in **${message.guild.name}** Server, has been debited with **${args.amount}** Bastion Currencies.`
+        description: `Your account, in **${message.guild.name}** Server, has been debited with **${args.amount}** STEM Bucks.`
       }
     }).catch(e => {
       Bastion.log.error(e);
@@ -112,7 +112,7 @@ exports.exec = async (Bastion, message, args) => {
     await message.author.send({
       embed: {
         color: Bastion.colors.RED,
-        description: `Your account, in **${message.guild.name}** Server, has been credited with **${args.amount}** Bastion Currencies.`
+        description: `Your account, in **${message.guild.name}** Server, has been credited with **${args.amount}** STEM Bucks.`
       }
     }).catch(e => {
       Bastion.log.error(e);
