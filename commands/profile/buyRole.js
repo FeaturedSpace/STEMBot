@@ -59,7 +59,7 @@ exports.exec = async (Bastion, message, args) => {
     await message.channel.send({
       embed: {
         color: Bastion.colors.BLUE,
-        description: `${message.author.tag} bought the **${role.name}** role for **${price}** Bastion Currencies.`
+        description: `${message.author.tag} bought the **${role.name}** role for **${price}** STEM Bucks.`
       }
     }).catch(e => {
       Bastion.log.error(e);
