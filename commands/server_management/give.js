@@ -31,7 +31,7 @@ exports.exec = async (Bastion, message, args) => {
     await message.channel.send({
       embed: {
         color: Bastion.colors.GREEN,
-        description: `You've awarded **${args.amount}** Bastion STEM Bucks to <@${user.id}>.`
+        description: `You've awarded **${args.amount}** STEM Bucks to <@${user.id}>.`
       }
     }).catch(e => {
       Bastion.log.error(e);
