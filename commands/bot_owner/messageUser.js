@@ -45,7 +45,7 @@ exports.config = {
 
 exports.help = {
   name: 'messageUser',
-  description: 'Send a specified message to any specified user that Bastion has access to.',
+  description: 'Send a specified message to any specified user that STEMBot has access to.',
   botPermission: '',
   userTextPermission: '',
   userVoicePermission: '',
