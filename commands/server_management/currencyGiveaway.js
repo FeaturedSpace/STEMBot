@@ -27,7 +27,7 @@ exports.exec = async (Bastion, message, args) => {
       embed: {
         color: Bastion.colors.BLUE,
         title: 'GIVEAWAY! 🎉',
-        description: `Giveaway event started. React to this message with ${reaction} to get a chance to win **${args.amount}** Bastion Currencies.`,
+        description: `Giveaway event started. React to this message with ${reaction} to get a chance to win **${args.amount}** STEM Bucks.`,
         footer: {
           text: `Event stops in ${TIMEOUT} hours. You will get your reward after the event has concluded.`
         }
@@ -63,7 +63,7 @@ exports.exec = async (Bastion, message, args) => {
             embed: {
               color: Bastion.colors.BLUE,
               title: 'Giveaway Event Ended',
-              description: `${winner} won the giveaway! And has been awarded with **${args.amount}** Bastion Currencies.\nThank you everyone for participating. Better luck next time.`
+              description: `${winner} won the giveaway! And has been awarded with **${args.amount}** STEM Bucks.\nThank you everyone for participating. Better luck next time.`
             }
           });
 
@@ -71,7 +71,7 @@ exports.exec = async (Bastion, message, args) => {
             embed: {
               color: Bastion.colors.BLUE,
               title: 'Congratulations',
-              description: `You won the giveaway in **${message.guild.name}** Server! And you've been awarded with **${args.amount}** Bastion Currencies.`
+              description: `You won the giveaway in **${message.guild.name}** Server! And you've been awarded with **${args.amount}** STEM Bucks.`
             }
           }).catch(() => {});
         }
