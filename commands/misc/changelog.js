@@ -26,24 +26,23 @@ exports.exec = async (Bastion, message) => {
     },
     {
       name: 'Missed an update?',
-      value: '[Check out our previous change logs](https://github.com/TheBastionBot/Bastion/releases).'
-        + '\nJoin **Bastion HQ** and never miss an update: https://discord.gg/fzx8fkt'
+      value: 'Ask Noah about new features, giveaways, and more!'
     },
     {
-      name: 'Loving Bastion?',
-      value: 'Then why wait? Go ahead and express your feelings by tweeting him [@TheBastionBot](https://twitter.com/TheBastionBot) and your testimonial will be posted in [our testimonials page](https://bastionbot.org/testimonials).'
+      name: 'Loving STEM?',
+      value: 'Why don\'t you invite one of your friends to join our server!'
     },
     {
-      name: 'Support Bastion\'s Development',
-      value: '[Support the development of Bastion](https://bastionbot.org/donate) to keep it running forever and get cool rewards!'
+      name: 'Support STEM Discord\'s Development',
+      value: '[Support the development of STEM Discord](https://featuredspace.com/donate) to keep it running forever and get cool rewards!'
     }
   );
 
   await message.channel.send({
     embed: {
       color: Bastion.colors.BLUE,
-      title: `Bastion Bot v${Bastion.package.version} Changelog`,
-      url: `https://github.com/TheBastionBot/Bastion/releases/v${Bastion.package.version}`,
+      title: `STEMBot Changelog`,
+      url: `https://github.com/FeaturedSpace/STEMBot/changelog.md`,
       fields: changes,
       image: {
         url: CHANGES.image
@@ -62,7 +61,7 @@ exports.config = {
 
 exports.help = {
   name: 'changelog',
-  description: 'Shows the changes made in the current version of Bastion Bot.',
+  description: 'Shows the changes made in the current version of STEMBot.',
   botPermission: '',
   userTextPermission: '',
   userVoicePermission: '',
