@@ -58,7 +58,7 @@ exports.config = {
 
 exports.help = {
   name: 'autoDisconnect',
-  description: 'Toggles auto disconnect from voice channel. If enabled, Bastion will automatically leave the voice channel to save bandwidth when no one else is connected to it.',
+  description: 'Toggles auto disconnect from voice channel. If enabled, STEMBot will automatically leave the voice channel to save bandwidth when no one else is connected to it.',
   botPermission: '',
   userTextPermission: 'MANAGE_GUILD',
   userVoicePermission: '',
