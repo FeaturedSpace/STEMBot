@@ -8,21 +8,21 @@ exports.exec = async (Bastion, message) => {
   await message.channel.send({
     embed: {
       color: Bastion.colors.DARK_GREEN,
-      title: 'Support Bastion\'s development',
-      url: 'https://bastionbot.org/donate',
+      title: 'Support STEM Discord\'s development',
+      url: 'https://featuredspace.com/donate',
       description: '**Share your appreciation and get cool rewards!**' +
-                   '\nDonate to support the development of Bastion and keep it running forever.' +
-                   '\n\nYou can donate via the methods below and get the rewards as mentioned in our Patreon tiers.',
+                   '\nDonate to support the development of STEM Discord and keep it running forever.' +
+                   '\n\nYou can donate via the methods below and get the rewards as mentioned in the Patreon tiers.',
       fields: [
         {
           name: 'Patreon',
-          value: 'You can pledge for The Bastion Bot Project on Patreon:'
-                + '\nhttps://patreon.com/bastionbot'
+          value: 'You can pledge for STEM Discord on Patreon:'
+                + '\nhttps://patreon.com/stemdiscord'
         },
         {
           name: 'PayPal',
           value: 'You can send one-off donations via PayPal:'
-                + '\nhttps://paypal.me/snkrsnkampa'
+                + '\nhttps://paypal.me/featuredspaceyt'
         },
         {
           name: 'Cryptocurrencies',
@@ -31,7 +31,7 @@ exports.exec = async (Bastion, message) => {
         }
       ],
       footer: {
-        text: 'If everyone using Bastion gave $1, we could keep Bastion thriving for months to come.'
+        text: 'If everyone in STEM gave $1, we could keep STEM Discord thriving for years to come.'
       }
     }
   });
@@ -44,7 +44,7 @@ exports.config = {
 
 exports.help = {
   name: 'donate',
-  description: 'Instructions on how to financially support the development of the Bastion Bot project.',
+  description: 'Instructions on how to financially support the development of the STEM Discord.',
   botPermission: '',
   userTextPermission: '',
   userVoicePermission: '',
