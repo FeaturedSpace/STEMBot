@@ -40,7 +40,7 @@ exports.config = {
 
 exports.help = {
   name: 'relayDirectMessages',
-  description: 'Toggles relaying of direct messages, sent to Bastion, to your inbox.',
+  description: 'Toggles relaying of direct messages, sent to STEMBot, to your inbox.',
   botPermission: '',
   userTextPermission: '',
   userVoicePermission: '',
