@@ -40,7 +40,7 @@ exports.config = {
 
 exports.help = {
   name: 'disconnect',
-  description: 'Disconnect Bastion from any voice connection in the Discord server.',
+  description: 'Disconnect STEMBot from any voice connection in the Discord server.',
   botPermission: '',
   userTextPermission: '',
   userVoicePermission: '',
