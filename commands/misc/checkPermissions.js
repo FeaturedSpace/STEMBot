@@ -32,7 +32,7 @@ exports.config = {
 
 exports.help = {
   name: 'checkPermissions',
-  description: 'Shows the permissions Bastion has in the server/channel.',
+  description: 'Shows the permissions STEMBot has in the server/channel.',
   botPermission: '',
   userTextPermission: '',
   userVoicePermission: '',
