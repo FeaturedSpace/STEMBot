@@ -92,7 +92,7 @@ exports.config = {
 
 exports.help = {
   name: 'addTrigger',
-  description: 'Adds a message trigger and a response. When a message is sent that contains that triggering word/phrase, Bastion replies with the response you have set.',
+  description: 'Adds a message trigger and a response. When a message is sent that contains that triggering word/phrase, STEMBot replies with the response you have set.',
   botPermission: '',
   userTextPermission: 'MANAGE_GUILD',
   userVoicePermission: '',
