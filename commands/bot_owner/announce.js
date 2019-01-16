@@ -59,7 +59,7 @@ exports.config = {
 
 exports.help = {
   name: 'announce',
-  description: 'Send a message to announcement channel of all the servers Bastion is connected to.',
+  description: 'Send a message to announcement channel of all the servers STEMBot is connected to.',
   botPermission: '',
   userTextPermission: '',
   userVoicePermission: '',
