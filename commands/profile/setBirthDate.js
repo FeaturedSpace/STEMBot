@@ -73,7 +73,7 @@ exports.config = {
 
 exports.help = {
   name: 'setBirthDate',
-  description: 'Sets your birth date that shows up in the Bastion user profile. Don\'t worry Bastion will never show your age/year to public.',
+  description: 'Sets your birth date that shows up in the Bastion user profile. Don\'t worry STEMBot will never show your age/year to public.',
   botPermission: '',
   userTextPermission: '',
   userVoicePermission: '',
