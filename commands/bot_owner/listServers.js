@@ -27,7 +27,7 @@ exports.exec = async (Bastion, message, args) => {
     embed: {
       color: Bastion.colors.BLUE,
       title: 'Server List',
-      description: `Bastion is connected to **${totalGuilds}** servers${Bastion.shard ? `, in Shard ${Bastion.shard.id}` : ''}.`,
+      description: `STEMBot is connected to **${totalGuilds}** servers${Bastion.shard ? `, in Shard ${Bastion.shard.id}` : ''}.`,
       fields: fields,
       footer: {
         text: `Page: ${p + 1} of ${noOfPages > parseInt(noOfPages) ? parseInt(noOfPages) + 1 : parseInt(noOfPages)}`
@@ -47,7 +47,7 @@ exports.config = {
 
 exports.help = {
   name: 'listServers',
-  description: 'Lists all Discord servers that Bastion is connected to, in the current shard.',
+  description: 'Lists all Discord servers that STEMBot is connected to, in the current shard.',
   botPermission: '',
   userTextPermission: '',
   userVoicePermission: '',
