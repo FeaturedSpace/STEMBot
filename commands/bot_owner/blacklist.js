@@ -88,7 +88,7 @@ exports.config = {
 
 exports.help = {
   name: 'blacklist',
-  description: 'Adds/Removes a specified user to %bastion%\'s blacklist. Blacklisted users cannot use any of %bastion%\'s commands.',
+  description: 'Adds/Removes a specified user to STEMBot\'s blacklist. Blacklisted users cannot use any of STEMBot\'s commands.',
   botPermission: '',
   userTextPermission: '',
   userVoicePermission: '',
