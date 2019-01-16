@@ -72,7 +72,7 @@ exports.config = {
 
 exports.help = {
   name: 'reminder',
-  description: 'Bastion sets a reminder to remind you of specified message, via direct message, after a specified duration.',
+  description: 'STEMBot sets a reminder to remind you of specified message, via direct message, after a specified duration.',
   botPermission: '',
   userTextPermission: '',
   userVoicePermission: '',
