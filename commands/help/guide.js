@@ -8,17 +8,17 @@ exports.exec = async (Bastion, message) => {
   await message.channel.send({
     embed: {
       color: Bastion.colors.GOLD,
-      title: 'Bastion Bot',
-      url: 'https://bastionbot.org/',
-      description: 'Need help installing and setting up Private Bastion Bot? No worries, we have made an amazing guide to help you out on that. And if you don\'t understand that or you need any more help or maybe if you just have a simple question, just join the Bastion HQ on Discord.',
+      title: 'STEMBot',
+      url: 'https://featuredspace.com/',
+      description: 'Oh yeah. Some sort of guide, required? Just go here instead. I\'ts my random website.',
       fields: [
         {
-          name: 'Bastion Bot - Documentation',
-          value: 'https://docs.bastionbot.org/'
+          name: 'STEMBot',
+          value: 'https://docs.featuredspace.com/'
         },
         {
-          name: 'Bastion HQ Invite Link',
-          value: 'https://discord.gg/fzx8fkt'
+          name: 'STEM Discord',
+          value: 'https://tinyurl.com/stemdiscord'
         }
       ]
     }
@@ -32,7 +32,7 @@ exports.config = {
 
 exports.help = {
   name: 'guide',
-  description: 'Shows you the guide on how to setup and install Private Bastion Bot. And links to the Bastion HQ.',
+  description: 'Shows you the guide on how to setup and install Private STEMBot. And links to anywhere.',
   botPermission: '',
   userTextPermission: '',
   userVoicePermission: '',
