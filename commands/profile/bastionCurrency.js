@@ -21,7 +21,7 @@ exports.exec = async (Bastion, message, args) => {
     bastionCurrencies = guildMemberModel.dataValues.bastionCurrencies;
   }
 
-  let description = message.author.id === args.id ? `**${args.tag}** you currently have **${bastionCurrencies}** Bastion Currencies in your account.` : `**${args.tag}** currently has **${bastionCurrencies}** Bastion Currencies in their account.`;
+  let description = message.author.id === args.id ? `**${args.tag}** you currently have **${bastionCurrencies}** STEM Bucks in your account.` : `**${args.tag}** currently has **${bastionCurrencies}** STEM Bucks in their account.`;
 
   await message.channel.send({
     embed: {
