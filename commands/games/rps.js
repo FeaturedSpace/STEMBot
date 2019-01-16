@@ -20,7 +20,7 @@ exports.exec = async (Bastion, message, args) => {
 
   let result = 'I win! :yum:';
   if (userOutcome === botOutcome) {
-    result = 'Oh damn! It\'s a draw, dude. :confused:';
+    result = 'Oh darn! It\'s a draw, dude. :confused:';
   }
   else if (userOutcome === 'ROCK') {
     if (botOutcome === 'SCISSOR') {
