@@ -93,7 +93,7 @@ exports.exec = async (Bastion, message, args) => {
     Bastion.emit('userDebit', message.guild.members.get(message.guild.owner.id), (0.9) * itemsInShop[args.index].value);
   }
 
-  let buyMessage = `${message.author.tag} bought **${itemsInShop[args.index].name}** for **${itemsInShop[args.index].value}** Bastion Currencies.`;
+  let buyMessage = `${message.author.tag} bought **${itemsInShop[args.index].name}** for **${itemsInShop[args.index].value}** STEM Bucks.`;
   await message.channel.send({
     embed: {
       color: Bastion.colors.GREEN,
