@@ -39,7 +39,7 @@ exports.config = {
 
 exports.help = {
   name: 'membersOnly',
-  description: 'Toggles Members Only mode of Bastion. If Members Only mode is enabled only users with at least one role in the server can use Bastion\'s Commands.',
+  description: 'Toggles Members Only mode of STEMBot. If Members Only mode is enabled only users with at least one role in the server can use STEMBot\'s Commands.',
   botPermission: '',
   userTextPermission: 'MANAGE_GUILD',
   userVoicePermission: '',
