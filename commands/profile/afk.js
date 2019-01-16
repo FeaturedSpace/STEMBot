@@ -30,7 +30,7 @@ exports.config = {
 
 exports.help = {
   name: 'afk',
-  description: 'Sets you as Away From Keyboard (AFK). So when someone mentions you, Bastion will let them know that you\'re AFK. It\'ll be automatically disabled once you are back.',
+  description: 'Sets you as Away From Keyboard (AFK). So when someone mentions you, STEMBot will let them know that you\'re AFK. It\'ll be automatically disabled once you are back.',
   botPermission: '',
   userTextPermission: '',
   userVoicePermission: '',
