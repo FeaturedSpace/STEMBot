@@ -37,11 +37,11 @@ exports.config = {
 };
 
 exports.help = {
-  name: 'bastionCurrency',
+  name: 'currency',
   description: 'Shows the amount of %currency.name_plural% in the specified user\'s account.',
   botPermission: '',
   userTextPermission: '',
   userVoicePermission: '',
   usage: 'bastionCurrency [@user-mention]',
-  example: [ 'bastionCurrency', 'bastionCurrency @user#0001' ]
+  example: [ 'currency', 'currency @user#0001' ]
 };
