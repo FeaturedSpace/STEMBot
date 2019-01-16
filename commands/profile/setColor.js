@@ -6,7 +6,7 @@
 
 exports.exec = async (Bastion, message, args) => {
   if (Bastion.methods.isPublicBastion(Bastion)) {
-    return Bastion.emit('error', '', 'This command is temporarily disabled in the public Bastion. For details, please contact [Bastion Support](https://discord.gg/fzx8fkt).', message.channel);
+    return Bastion.emit('error', '', 'This command is temporarily disabled.', message.channel);
   }
 
   if (!args.color || !/^#?(?:[0-9a-f]{3}|[0-9a-f]{6})$/i.test(args.color)) {
@@ -49,7 +49,7 @@ exports.config = {
 
 exports.help = {
   name: 'setColor',
-  description: 'Sets your user color that is used in the Bastion user profile.',
+  description: 'Sets your user color that is used in the STEMBot user profile.',
   botPermission: '',
   userTextPermission: '',
   userVoicePermission: '',
