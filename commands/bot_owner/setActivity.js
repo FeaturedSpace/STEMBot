@@ -46,7 +46,7 @@ exports.config = {
 
 exports.help = {
   name: 'setActivity',
-  description: 'Sets the activity of %bastion%.',
+  description: 'Sets the activity of STEMbot.',
   botPermission: '',
   userTextPermission: '',
   userVoicePermission: '',
