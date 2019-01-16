@@ -36,10 +36,10 @@ exports.config = {
 
 exports.help = {
   name: 'searchServers',
-  description: 'Searches for Discord servers, containing the specified text in their name, that Bastion is connected to.',
+  description: 'Searches for Discord servers, containing the specified text in their name, that STEMBot is connected to.',
   botPermission: '',
   userTextPermission: '',
   userVoicePermission: '',
   usage: 'searchServers <name>',
-  example: [ 'searchServers Bastion' ]
+  example: [ 'searchServers STEM' ]
 };
