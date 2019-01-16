@@ -56,7 +56,7 @@ exports.exec = async (Bastion, message, args) => {
     await message.channel.send({
       embed: {
         color: Bastion.colors.GREEN,
-        description: `Listed **${args.item}** for sale in the Shop for **${args.add}** Bastion Currencies.`
+        description: `Listed **${args.item}** for sale in the Shop for **${args.add}** STEM Bucks.`
       }
     }).catch(e => {
       Bastion.log.error(e);
@@ -100,7 +100,7 @@ exports.exec = async (Bastion, message, args) => {
       itemsInShop = itemsInShop.map((item, i) => {
         return {
           name: `${i + 1}. ${item.name}`,
-          value: `${item.value} Bastion Currencies`,
+          value: `${item.value} STEM Bucks`,
           inline: true
         };
       });
