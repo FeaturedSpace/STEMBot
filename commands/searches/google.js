@@ -14,7 +14,7 @@ exports.exec = async (Bastion, message, args) => {
 
   let options = {
     headers: {
-      'User-Agent': `Bastion: Discord Bot (https://bastionbot.org, ${Bastion.package.version})`
+      'User-Agent': `STEMBot: Discord Bot (https://featuredspace.com/stembot, ${Bastion.package.version})`
     },
     url: 'http://google.com/search',
     qs: {
