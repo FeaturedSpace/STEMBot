@@ -12,7 +12,7 @@ exports.exec = async (Bastion, message, args) => {
       embed: {
         color: Bastion.colors.GOLD,
         title: 'List of Command Categories',
-        description: `Use the \`${this.help.name} <category>\` command to list all the commands in the specified category.\nTo get a complete list of all the commands with details, visit [my website](https://bastionbot.org/) and check out the commands section: https://bastionbot.org/commands.`,
+        description: `Use the \`${this.help.name} <category>\` command to list all the commands in the specified category.\nTo get a complete list of all the commands with details, visit [my website](https://featuredspace.com/) and check out the commands section: https://featuredspace.com/stembot/commands.`,
         fields: [
           {
             name: 'Command Categories',
@@ -20,7 +20,7 @@ exports.exec = async (Bastion, message, args) => {
           }
         ],
         footer: {
-          text: `Did you know? There are ${Bastion.commands.size} commands in this version of Bastion!`
+          text: `Did you know? There are ${Bastion.commands.size} commands in this version of STEMBot!`
         }
       }
     });
@@ -56,7 +56,7 @@ exports.exec = async (Bastion, message, args) => {
         },
         {
           name: 'Want the complete list?',
-          value: 'To get a complete list of all the commands with details, visit [my website](https://bastionbot.org/) and check out the commands page: https://bastionbot.org/commands.'
+          value: 'To get a complete list of all the commands with details, visit [my website](https://featuredspace.com/) and check out the commands page: https://featuredspace.com/stembot/commands.'
         }
       ],
       footer: {
@@ -76,7 +76,7 @@ exports.config = {
 
 exports.help = {
   name: 'commands',
-  description: 'Shows the list of command categories. And if a category is specified, Bastion will show a list of commands in that category.',
+  description: 'Shows the list of command categories. And if a category is specified, STEMBot will show a list of commands in that category.',
   botPermission: '',
   userTextPermission: '',
   userVoicePermission: '',
