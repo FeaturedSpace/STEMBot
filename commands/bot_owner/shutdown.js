@@ -59,7 +59,7 @@ exports.config = {
 
 exports.help = {
   name: 'shutdown',
-  description: 'Shuts down bastion and terminates the process.',
+  description: 'Shuts down STEMBot and terminates the process.',
   botPermission: '',
   userTextPermission: '',
   userVoicePermission: '',
