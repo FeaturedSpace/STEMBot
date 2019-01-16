@@ -8,13 +8,13 @@ exports.exec = async (Bastion, message) => {
   await message.channel.send({
     embed: {
       color: Bastion.colors.GOLD,
-      title: 'Bastion HQ',
-      url: 'https://discord.gg/fzx8fkt',
-      description: 'Need help or support with Bastion Discord Bot?\nJoin Bastion Support Server for any help you need.\nhttps://discord.gg/fzx8fkt',
+      title: 'STEM Discord',
+      url: 'https://tinyurl.com/stemdiscord',
+      description: 'Need help or support with STEMBot?\nAsk Noah for help; or do some command or something!',
       fields: [
         {
           name: 'Website',
-          value: 'https://bastionbot.org/'
+          value: 'https://featuredspace.com/stembot'
         }
       ]
     }
